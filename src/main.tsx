@@ -13,11 +13,11 @@ import { GlobalStyle } from './styles/global';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-crud-front/',
     element: <Home />,
   },
   {
-    path: '/create',
+    path: '/react-crud-front/create',
     element: <Create />
   }
 ]);
