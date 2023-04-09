@@ -61,7 +61,7 @@ export default function Home() {
       <UsersListHeader>
         <strong>{amountOfContacts} {amountOfContacts === 1 ? 'contato' : 'contatos'}</strong>
 
-        <Link to='/create'>
+        <Link to='/react-crud-front/create'>
           <button>Novo contato</button>
         </Link>
       </UsersListHeader>

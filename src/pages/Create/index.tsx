@@ -48,7 +48,7 @@ export default function Create() {
   const createUser = async (data : CreateUserFormData) => {
     setIsLoading(true);
     await api.post('/users', data)
-      .then(() => navigate('/'))
+      .then(() => navigate('/react-crud-front/'))
       .finally(() => setIsLoading(false));
   };
 
