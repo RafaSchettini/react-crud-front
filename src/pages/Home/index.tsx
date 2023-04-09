@@ -62,7 +62,7 @@ export default function Home() {
         <strong>{amountOfContacts} {amountOfContacts === 1 ? 'contato' : 'contatos'}</strong>
 
         <Link to='/react-crud-front/create'>
-          <button>Novo contato</button>
+          <button disabled={isLoading} >Novo contato</button>
         </Link>
       </UsersListHeader>
 

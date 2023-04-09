@@ -27,6 +27,13 @@ export const UsersListHeader = styled.div`
       background: #e15964;
       color: #fff;
     }
+
+    &:disabled {
+      background: #e1e4e8;
+      color: #fff;
+      border-color: #e1e4e8;
+      cursor: not-allowed;
+    }
   }
 `;
 
